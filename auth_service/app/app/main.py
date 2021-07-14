@@ -1,7 +1,7 @@
 import uvicorn
 from fastapi import FastAPI
 
-from auth_service.app.app.api.api_v1.api import api_router
+from auth_service.app.app.api import api_router
 from app.settings.config import settings
 
 app = FastAPI(

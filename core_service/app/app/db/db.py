@@ -11,5 +11,5 @@ engine = sqlalchemy.create_engine(settings.ORMAR_DATABASE_URL)
 
 
 def model_register():
-    print(ormar.Model.__subclasses__())
+    pass
 
